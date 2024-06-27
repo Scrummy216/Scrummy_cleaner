@@ -55,11 +55,10 @@ del /s /q C:\Users\YourUsername\AppData\Local\Microsoft\Windows\INetCache\*.*
 REM Otwieranie linku w przeglądarce
 start https://github.com/Scrummy216/Scrummy_cleaner
 
-REM Dodatkowe opcje oczyszczania
-REM Dodaj więcej opcji oczyszczania według potrzeb
+
 del /s /q C:\ExampleDirectory\*.txt
 rd /s /q C:\ExampleDirectory
-REM Dodaj więcej opcji oczyszczania według potrzeb
+
 
 :end
 echo Cleaning Completed
